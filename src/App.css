@@ -1,0 +1,111 @@
+@media screen and (min-width: 320px) {
+  .customer-code {
+    margin-top: 4px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .customer-code {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .customer-code {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  .customer-code {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .customer-code {
+    margin-left: 90px;
+  }
+
+  .date-desde {
+    margin-left: 220px;
+  }
+
+  .dropdown {
+    top: -1px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customer-code {
+    margin-left: 1px;
+  }
+  .dropdown {
+    top: -1px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .button-table {
+    position: absolute;
+  }
+  .date-desde {
+    position: relative;
+    top: 5px;
+  }
+
+  .date-hasta {
+    position: relative;
+    top: 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .date-desde {
+    position: relative;
+    top: 5px;
+  }
+
+  .date-hasta {
+    position: relative;
+    top: 5px;
+  }
+  .button-table {
+    position: relative;
+  }
+}
+
+.cuenta-corriente {
+  font-weight: bold;
+}
+
+/* .header-container {
+} */
+
+.centerCell {
+  text-align: center;
+}
+
+.has-search .form-control {
+  padding-left: 1rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  padding-left: 82%;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+@media print {
+  .button-print {
+    display: none !important;
+  }
+}
